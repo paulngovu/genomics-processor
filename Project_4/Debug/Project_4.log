@@ -1,0 +1,20 @@
+﻿  GenomeMatcher.cpp
+d:\ucla\cs\cs32\project_4\project_4\genomematcher.cpp(49): warning C4018: '<': signed/unsigned mismatch
+d:\ucla\cs\cs32\project_4\project_4\genomematcher.cpp(54): warning C4018: '<=': signed/unsigned mismatch
+d:\ucla\cs\cs32\project_4\project_4\genomematcher.cpp(58): warning C4018: '<': signed/unsigned mismatch
+d:\ucla\cs\cs32\project_4\project_4\trie.h(160): warning C4018: '<': signed/unsigned mismatch
+  d:\ucla\cs\cs32\project_4\project_4\trie.h(140): note: while compiling class template member function 'void Trie<DNAMatch>::findSNiPHelper(const std::string &,const int &,Trie<DNAMatch>::Node *,std::vector<DNAMatch,std::allocator<_Ty>> &,bool) const'
+          with
+          [
+              _Ty=DNAMatch
+          ]
+  d:\ucla\cs\cs32\project_4\project_4\trie.h(82): note: see reference to function template instantiation 'void Trie<DNAMatch>::findSNiPHelper(const std::string &,const int &,Trie<DNAMatch>::Node *,std::vector<DNAMatch,std::allocator<_Ty>> &,bool) const' being compiled
+          with
+          [
+              _Ty=DNAMatch
+          ]
+  d:\ucla\cs\cs32\project_4\project_4\trie.h(41): note: while compiling class template member function 'Trie<DNAMatch>::Trie(void)'
+  d:\ucla\cs\cs32\project_4\project_4\genomematcher.cpp(24): note: see reference to function template instantiation 'Trie<DNAMatch>::Trie(void)' being compiled
+  d:\ucla\cs\cs32\project_4\project_4\genomematcher.cpp(21): note: see reference to class template instantiation 'Trie<DNAMatch>' being compiled
+d:\ucla\cs\cs32\project_4\project_4\trie.h(173): warning C4018: '<': signed/unsigned mismatch
+  Project_4.vcxproj -> D:\UCLA\CS\CS32\Project_4\Debug\Project_4.exe
